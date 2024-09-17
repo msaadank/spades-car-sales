@@ -2,6 +2,13 @@ import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
 import { Footer, Navbar } from "@/components";
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+import AuthProvider from "@/context/AuthProvider";
+>>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
+>>>>>>> master
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -26,6 +33,10 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> master
       <body
         className='relative'
       >
@@ -33,6 +44,20 @@ export default function RootLayout({
         {children}
         <Footer />
       </body>
+<<<<<<< HEAD
+=======
+=======
+      <AuthProvider>
+        <body
+          className='relative'
+        >
+          <Navbar />
+          {children}
+          <Footer />
+        </body>
+      </AuthProvider>
+>>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
+>>>>>>> master
     </html>
   );
 }

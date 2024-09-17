@@ -21,9 +21,23 @@ const Navbar = () => {
                 <Link href={'/about'}>About</Link>
                 <Link href={'/contact'}>Contact Us</Link>
               </div>
+<<<<<<< HEAD
               <CustomButton title="Find a Car"
                             containerStyles="text-[#DCAC26] rounded-xl bg-[#212121]"
                             btnType="button"  />
+=======
+<<<<<<< HEAD
+              <CustomButton title="Find a Car"
+                            containerStyles="text-[#DCAC26] rounded-xl bg-[#212121]"
+                            btnType="button"  />
+=======
+              <Link href={'/explore'}>
+                <CustomButton title="Find a Car"
+                              containerStyles="text-[#DCAC26] rounded-xl bg-[#212121]"
+                              btnType="button"  />
+              </Link>
+>>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
+>>>>>>> master
             </div>
                           
         </nav>

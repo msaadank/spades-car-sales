@@ -38,7 +38,15 @@ body{
 }
 
 .custom-btn {
+<<<<<<< HEAD
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
+=======
+<<<<<<< HEAD
+  @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
+=======
+  @apply flex flex-row relative justify-center items-center py-2 px-6 outline-none;
+>>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
+>>>>>>> master
 }
 /* END: General styles */
 
@@ -64,7 +72,15 @@ body{
 }
 
 .hero__image-overlay {
+<<<<<<< HEAD
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+=======
+<<<<<<< HEAD
+  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
+=======
+  @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen sm:h-[590px] h-[250px] overflow-hidden;
+>>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
+>>>>>>> master
 }
 /* END: Hero styles */
 
