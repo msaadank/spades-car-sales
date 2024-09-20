@@ -38,17 +38,18 @@ body{
 }
 
 .custom-btn {
-<<<<<<< HEAD
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
-=======
-<<<<<<< HEAD
   @apply flex flex-row relative justify-center items-center py-3 px-6 outline-none;
-=======
   @apply flex flex-row relative justify-center items-center py-2 px-6 outline-none;
->>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
->>>>>>> master
 }
 /* END: General styles */
+
+/* Input styles */
+.add-car-input {
+  @apply bg-zinc-700 px-4 py-2 text-white rounded-lg border-none focus:ring-1 ring-orange-400
+}
+/* End of Input styles */
+
 
 /* START: Hero styles */
 .hero {
@@ -56,11 +57,11 @@ body{
 }
 
 .hero__title {
-  @apply 2xl:text-[72px] sm:text-[64px] text-[50px] font-extrabold;
+  @apply 2xl:text-[68px] sm:text-[64px] text-[50px] font-extrabold;
 }
 
 .hero__subtitle {
-  @apply text-[27px] text-gray-400 font-light mt-5;
+  @apply text-[22px] text-gray-400 font-light mt-5;
 }
 
 .hero__image-container {
@@ -72,15 +73,10 @@ body{
 }
 
 .hero__image-overlay {
-<<<<<<< HEAD
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
-=======
-<<<<<<< HEAD
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen h-[590px] overflow-hidden;
-=======
   @apply absolute xl:-top-24 xl:-right-1/2 -right-1/4 bg-hero-bg bg-repeat-round -z-10 w-full xl:h-screen sm:h-[590px] h-[250px] overflow-hidden;
->>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
->>>>>>> master
+
 }
 /* END: Hero styles */
 

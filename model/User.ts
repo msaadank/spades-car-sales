@@ -1,5 +1,6 @@
 import mongoose, {Schema, Document, Mongoose} from "mongoose";
 
+// Define the User interface extending Document
 export interface User extends Document {
     email: string;
     password: string;
@@ -8,6 +9,7 @@ export interface User extends Document {
     forgotPasswordExpiry: Date;
 }
 
+// Define the User schema
 const UserSchema: Schema<User> = new Schema({
     email: {
         type: String,

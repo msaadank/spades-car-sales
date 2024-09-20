@@ -1,25 +1,8 @@
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> master
-import React from 'react'
-
-const Footer = () => {
-  return (
-    <div>Footer</div>
-  )
-}
-
-<<<<<<< HEAD
-export default Footer
-=======
-export default Footer
-=======
 import Image from "next/image";
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col bg-black text-white mt-5">
+    <footer className="flex flex-col bg-black text-white ">
       <div className="flex max-md:flex-col flex-wrap justify-between gap-5 sm:px-16 px-6 py-10">
         <div className="flex flex-col justify-start items-start gap-6">
           <Image
@@ -41,5 +24,3 @@ const Footer = () => {
 };
 
 export default Footer;
->>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
->>>>>>> master

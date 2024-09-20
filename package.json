@@ -9,20 +9,10 @@
     "lint": "next lint"
   },
   "dependencies": {
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
->>>>>>> master
-    "lucide-react": "^0.441.0",
-    "next": "14.2.11",
-    "react": "^18",
-    "react-dom": "^18"
-  },
-  "devDependencies": {
-<<<<<<< HEAD
-=======
-=======
+    "@hookform/resolvers": "^3.9.0",
+    "axios": "^1.7.7",
     "bcryptjs": "^2.4.3",
+    "clsx": "^2.1.1",
     "lucide-react": "^0.441.0",
     "mongoose": "^8.6.2",
     "next": "14.2.11",
@@ -31,12 +21,11 @@
     "react-dom": "^18",
     "react-hook-form": "^7.53.0",
     "react-hot-toast": "^2.4.1",
+    "tailwind-merge": "^2.5.2",
     "zod": "^3.23.8"
   },
   "devDependencies": {
     "@types/bcryptjs": "^2.4.6",
->>>>>>> d95fdd4 (NextAuth, react-hook-form, zod)
->>>>>>> master
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
