@@ -3,6 +3,7 @@
 import Image from "next/image"
 import CustomButton from "./CustomButton"
 import hero from '@/public/hero.png'
+import heroBg from '@/public/hero-bg.png'
 import Link from "next/link"
 
 const Hero = () => {
@@ -26,7 +27,7 @@ const Hero = () => {
       </div>
       <div className="hero__image-container">
         <div className="hero__image">
-          <Image src={hero} alt="hero" fill className="sm:block absolute top-0 object-contain" />
+          <Image src={heroBg} alt="hero" fill className="sm:block absolute top-0 object-contain" />
           <div className="hero__image-overlay"></div>
         </div>
       </div>
