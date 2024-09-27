@@ -14,20 +14,11 @@ const Navbar = () => {
                        height={45}
                        className="object-contain" />
             </Link>
-
-            <div className="flex items-center">
-              <div className="md:flex hidden items-center mr-10 gap-10">
-                <Link href={'/home'}>Home</Link>
-                <Link href={'/about'}>About</Link>
-                <Link href={'/contact'}>Contact Us</Link>
-              </div>
               <Link href={'/explore'}>
                 <CustomButton title="Find a Car"
                               containerStyles="text-[#DCAC26] rounded-xl bg-[#212121]"
                               btnType="button"  />
               </Link>
-            </div>
-                          
         </nav>
     </header>
   )

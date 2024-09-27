@@ -1,4 +1,4 @@
-import CarCard from '@/components/CarCard'
+import { CarCard } from '@/components/index'
 import Layout from '@/components/Layout'
 import React from 'react'
 

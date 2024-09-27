@@ -1,5 +1,5 @@
 import { Hero } from "@/components";
-import Layout from "@/components/Layout";
+import { Layout } from "@/components/index";
 
 export default function Home() {
   return (
